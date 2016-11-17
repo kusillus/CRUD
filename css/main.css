@@ -154,6 +154,9 @@ table {
     flex-wrap: wrap;
     margin: .5rem 0 2rem; }
 
+.field {
+  margin-right: 1.5rem; }
+
 input[type=text], textarea {
   display: block;
   border: solid .1rem #F0F0F0;

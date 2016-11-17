@@ -189,13 +189,16 @@ table {
 	flex-wrap: wrap;
 	& .form__field {
 		margin: 0 1rem;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
 		margin: .5rem 0 2rem;
 	}
 }
 
+.field{
+	margin-right: 1.5rem;
+}
 
 input[type=text], textarea{
 	display: block;
