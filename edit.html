@@ -1,0 +1,88 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CRUD</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<header>
+		<div class="header__top">
+			<h1><a href="#">GSM</a></h1>
+			<a href="#">Cerrar Sesión</a>
+		</div>
+		<div class="header__mid">
+			<a href="#">Administración</a>
+		</div>
+		<div class="header__bot">
+			<p>Cliente<span>/</span><em>Proyecto</em></p>
+		</div>
+	</header>
+	<div class="crud__base">
+		<div class="crud__options">
+			<div class="options__project">
+				<h2>PROYECTO</h2>
+				<button class="dis" disabled="">Crear Proyecto</button>
+			</div>
+			<div class="options__links">
+				<a href="#">Compañia</a>
+				<a href="#">Configuracion de BD</a>
+				<a href="#">Menú</a>
+			</div>
+		</div>
+		<div class="crud__content">
+			<div class="crud__info">
+				<h2>Crear Proyecto</h2>
+				<p>Información de proyecto Personal (*) campos requeridos</p>
+			</div>
+			<div class="crud__status">
+				
+			</div>
+			<div class="crud__datos">
+				<form action="">
+				<div class="form__field">
+						<div>
+							<div class="datos__nombre">
+							<label>Nombre Proyecto:*</label>
+							<input type="text">
+							</div>
+							<div class="datos__codigo">
+								<label for="">Código del Proyecto:*</label>
+								<input type="text">
+							</div>	
+						</div>
+						
+						<div>
+							<div class="datos__nombre">
+							<label>Alias:*</label>
+							<input type="text">
+							</div>
+							<div class="datos__codigo">
+								<label for="">Idioma:*</label>
+								<input type="text">
+							</div>	
+						</div>
+						<div>
+							<div class="datos__desc">
+								<label for="">Descripción:*</label>
+								<textarea name="" id="" cols="30" rows="5"></textarea>
+							</div>	
+						</div>
+					</div>
+				<div class="btn__form">
+					<input type="submit" value="&#x1F4BE; Guardar">
+					<input type="reset" value="&#x232B; Limpiar">
+					<input type="button" onclick="location='./index.html'" value="Cancelar">
+				</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/main.js"></script>
+</body>
+</html>

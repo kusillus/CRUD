@@ -1,0 +1,28 @@
+{
+	"datos": [
+		{
+			"codigo": "000",
+			"nombre": "Alexander",
+			"alias": "kusillus",
+			"descripcion": "1234-123",
+			"editar": "x",
+			"estado": "activo"
+		},
+		{
+			"codigo": "001",
+			"nombre": "Diana",
+			"alias": "Dechucina",
+			"descripcion": "1234-123",
+			"editar": "x",
+			"estado": "activo"
+		},
+		{
+			"codigo": "002",
+			"nombre": "Andersson",
+			"alias": "Palader",
+			"descripcion": "1234-123",
+			"editar": "x",
+			"estado": "activo"
+		}
+	]
+}
